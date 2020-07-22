@@ -17,7 +17,9 @@ class Person
 end
 
 class PartnerError < StandardError
-  
+  def message
+    
+  end
 end
 
 beyonce = Person.new("Beyonce")
